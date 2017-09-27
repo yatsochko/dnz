@@ -1,0 +1,110 @@
+.welcome p {
+    text-align: justify;
+    text-indent: 30px;
+    margin-bottom: 3px;
+    font-size: 15px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.welcome img {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#interview {
+    font-size: 20px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+
+.item-responsive {
+    position: relative; /* относительное позиционирование */
+}
+.item-responsive:before {
+    display: block; /* отображать элемент как блок */
+    content: ""; /* содержимое псевдоэлемента */
+    width: 100%; /* ширина элемента */
+}
+.item-16by9 {
+    padding-top: 56.25%; /* (9:16)*100% */
+}
+.item-responsive>.content {
+    position: absolute; /* абсолютное положение элемент */
+    /* положение элемента */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.item-4by3 {
+    padding-top: 75%; /* (3:4)*100% */
+}
+.item-2by1 {
+    padding-top: 50%; /* (1:2)*100% */
+}
+.item-1by1 {
+    padding-top: 100%; /* (1:1)*100% */
+}
+
+html {
+    font-size: 16px;
+}
+.media-body .author {
+    display: block;
+    font-size: 1rem;
+    color: #000;
+    font-weight: 700;
+}
+.media-body .metadata {
+    display: block;
+    color: #777;
+    font-size: .8125rem;
+}
+.media-body {
+    margin-bottom: 10px;
+}
+.media-body-second {
+    margin-left: 70px;
+}
+
+.media-text {
+    margin-bottom: 0.25rem;
+    padding-top: 5px;
+    clear: both;
+}
+.title-comments {
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+    color: rgba(0,0,0,.87);
+    margin-bottom: 1rem;
+    padding-bottom: .25rem;
+    border-bottom: 1px solid rgba(34,36,38,.15);
+}
+.avatar img {
+    width: 55px;
+    height: 55px;
+}
+.avatar {
+    float: left;
+    height: 60px
+}
+.user-info {
+    float: left;
+    height: 60px;
+    padding: 10px 0 5px 12px
+}
+.answer-btn {
+    margin: 7px 0 7px 0;
+}
+
